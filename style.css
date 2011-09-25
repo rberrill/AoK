@@ -1,0 +1,1144 @@
+/*
+Theme Name: AOK Gourmet
+Theme URI: http://www.rcbdesigns.net/
+Description: Child Theme for Starkers
+Author: Rich Berrill
+Author URI: http://www.rcbdesigns.net/
+Template: Starkers
+Version: 0.1
+*/
+
+@import url("../Starkers/style.css");
+
+html
+{
+    font-size: 100%;
+}
+
+body
+{
+    background-color: #FFFFFF;
+    margin: 0 auto 25px auto;
+    font-family: Arial, Helvetica, Lucida Granda;
+}
+
+#global_box
+{
+    position: relative;
+    width: 960px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0
+}
+
+/*Top logo and page nav */
+#global_box .top_logo_img
+{
+    width: 170px;
+    height: 140px;
+    display: block;
+    background-color: #FFFFFF;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#global_box .addr_box
+{
+    float: right;
+    width: 215px;
+    height: auto;
+    display: block;
+    border-color: #212121;
+    border-width: 1px;
+    border-style: solid;
+    margin: 20px 0 10px 0;
+    padding-bottom: 10px;
+}
+
+#global_box .addrFont
+{
+    padding: 5px;
+    margin: 4px 0 0 0;
+    text-align: right;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+/*nav lists*/
+#navigation
+{
+    font-size: 0.93em;
+    width: 100%;
+    height: 35px;
+    background-color: #431207;
+    clear: both;
+    margin: 0 0 1% 2px;
+    padding: 0 0 0 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#navigation .left_corner
+{
+    width: 9px;
+    height: 35px;
+    display: block;
+    background-image: url(../AoK/img/nav/left_corner_sm.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: scroll;
+    background-color: transparent;
+    float: left;
+
+}
+
+#navigation .right_corner
+{
+    width: 9px;
+    height: 35px;
+    display: block;
+    background-image: url(../AoK/img/nav/right_corner_sm.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: scroll;
+    float: right;
+    background-color: transparent;
+}
+
+#navigation ul
+{
+    list-style-type: none;
+    list-style-position: default;
+    padding: 8px 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#navigation ul li
+{
+    display: inline;
+    margin: 0 1px 0 0;
+    padding: 0;
+    border-right: #FFFFFF;
+    border-width: 0 2px 0 0;
+    border-style: none solid none none;
+}
+
+#navigation .last-menu-item
+{
+    border: 0;
+}
+
+
+#navigation a:hover
+{
+    color: #96AB51;
+}
+
+#navigation a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    letter-spacing: 0.1em;
+}
+
+#navagation ul, li, .nav_spacing
+{
+    padding: 0 3px 0 3px;
+}
+
+#global_box .main_img
+{
+    width: 960px;
+    height: 340px;
+    display: block;
+    clear: both;
+    padding-bottom: 5px;
+}
+
+.main_img img {
+    width: 960px;
+    height: 340px;
+}
+
+#twin_box
+{
+    width: 938px;
+    clear: both;
+    margin: 25px 0 20px 0;
+    padding: 10px 10px 0 10px;
+    background: #EEE;
+    border: 1px dotted #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#twin_box .left_box
+{
+    width: 448px;
+    float: left;
+    padding: 0;
+    margin: auto;
+}
+
+#twin_box .right_box
+{
+    width: 468px;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+#twin_box .yellow_sq
+{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    float: left;
+    
+    background-image: url(../AoK/img/chefsHatGray.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
+
+#twin_box h4
+{
+    margin: 10px 0 5px 45px;
+    color: #000000;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#twin_box p
+{
+    margin: 0 5px 0 45px;
+    color: #000000;
+    font-size: .75em;
+    font-weight: normal;
+    padding: 0pxxxxs;
+}
+
+#twin_box strong {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#main_content
+{
+    background-color: #FFFFFF;
+    width: 960px;
+    clear: both;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#main_content .left_content
+{
+    width: 690px;
+    float: left;
+    padding: 0 0 15px 0;
+    margin: auto;
+}
+
+#main_content .sidebar
+{
+    width: 260px;
+    float: right;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+#main_content .yellow_sq
+{
+    background-color: #FFF;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    float: left;
+    
+    background-image: url(../AoK/img/chefsHatGray.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
+
+#main_content h4, #main_content h3
+{
+    margin: 0 0 15px 0;
+    color: #000000;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#main_content p
+{
+    margin: 0 0 10px 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+}
+
+#main_content strong {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#txt_box
+{
+    background-color: #FFFFFF;
+    width: 772px;
+    height: auto;
+    clear: both;
+    margin: 15px 0 15px 0;
+    border-color: #9A9A81;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 0 50px 0;	
+}
+
+h3 {
+    margin: 12px 0 0 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+p
+{
+    margin: 10px 5px 10px 45px;
+    color: #000000;
+    font-size: 0.75em;
+    font-weight: normal;
+    text-align: left;
+    font-family: Myriad, Arial, Helvetica, "Lucida Granda";
+}
+
+p.menu
+{
+    margin: 0 5px 10px 45px;
+    color: #000000;
+    font-size: 0.75em;
+    font-weight: normal;
+    text-align: left;
+    font-family: Myriad, Arial, Helvetica, "Lucida Granda";
+}
+
+
+#txt_box h4
+{
+    margin: 15px 0 0 45px;
+    color: #000000;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#txt_box h3 {
+    margin: 10px 0 0 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+
+#txt_box .yellow_sq
+{
+    background-color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    clear: left;
+    margin: 7px 5px 5px 5px;
+    float: left;
+    display: block;
+    background-image: url(../AoK/img/chefsHatGray.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
+
+#txt_box img.img_contact
+{
+    margin: 0 10px 0 0;
+    float: right;
+}
+
+#txt_box img.img_left
+{
+    margin: 0 0 0 45px;
+}
+
+#txt_box .img_right_bdr
+{
+    float: right;
+    border-color: #D4D2D2;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 25px;
+    margin-right: 8px;
+}
+
+/*Photo Gallery*/
+#txt_box ul
+{
+    padding: 0;
+    list-style-type: none;
+    list-style-position: default;
+    text-align: left;
+    margin: 0;
+    color: #425E8E;
+    vertical-align: top;
+}
+
+#txt_box ul li
+{
+    padding: 2px;
+    margin: 5px 0 5px 0;
+}
+
+#txt_box .testimonial
+{
+    color: black;
+    font-size: 0.85em;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 8px 0 0 45px;
+}
+
+#img_spacer
+{
+    margin: 0 0 0 45px;
+
+}
+
+.img_space
+{
+    margin: 0 5px 0 5px;
+    border-color: #D4D2D2;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.img_zoom
+{
+    margin: 0 5px 0 45px;
+    border-color: #D4D2D2;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#img_spacer p {
+    margin: 0 50px 5px 0;
+
+}
+
+#img_spacer a:hover .img_space
+{
+    border-color: #FF9611;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/*menu page*/
+#txt_box ul.ul_left_menu
+{
+    padding: 0;
+    list-style-type: none;
+    list-style-position: default;
+    text-align: left;
+    margin: 0 0 0 45px;
+    color: black;
+    font-size: 0.75em;
+}
+
+#txt_box li.li_left_menu ul.ul_left_menu
+{
+
+    margin: 4px 0 4px 0;
+}
+
+#txt_box .sm_txt
+{
+    color: #7F7F7F;
+    font-size: 0.70em;
+    margin: 0 200px 0 45px;
+    text-align: left;
+}
+
+#txt_box ul.sitemap
+{
+    margin: 0 0 0 45px;
+    font-size: 0.75em;
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+#txt_box ul.sub_ul
+{
+    margin: 0 0 0 45px;
+    font-size: 1.0em;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#txt_box hr
+{
+    border-color: #000;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    width: 60%;
+    margin: 0px;
+}
+
+#corp_soc_bottbox
+{
+    background-color: #FFFFFF;
+    width: 772px;
+    height: auto;
+    clear: both;
+    margin: 15px 0 15px 0;
+    border-color: #9A9A81;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 0 10px 0;
+
+}
+
+#corp_soc_bottbox .yellow_sq
+{
+    background-color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    clear: left;
+    margin: 7px 5px 5px 5px;
+    float: left;
+    display: block;
+    background-image: url(../AoK/img/chefsHatGray.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
+
+#corp_soc_bottbox li
+{
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: left;
+    font-family: Myriad, Arial, Helvetica, "Lucida Granda";
+    list-style-type: none;
+    margin: 3px 0 3px 0;
+
+}
+
+#corp_soc_bottbox hr
+{
+    border-color: #9A9A81;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    width: 80%
+}
+
+#corp_soc_bottbox p {
+    margin: 10px 0 0 45px;
+
+}
+/*boxes*/
+#boxes
+{
+    width: 775px;
+    height: auto;
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin: 15px auto;
+}
+
+#boxes .img_left
+{
+    float: left;
+    margin-left: 5px;
+}
+
+#bottom_boxes
+{
+    background-image: url(../AoK/img/boxes/menu_box.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    width: 190px;
+    height: 295px;
+    float: left;
+    background-color: white;
+}
+
+#menu_box_toppage
+{
+    width: 190px;
+    height: auto;
+    float: right;
+    background-color: #FFFFFF;
+    font-size: 0.75em;
+}
+
+#menu_box_toppage .boxes_recipe_top
+{
+    background-image: url(../AoK/img/boxes/recipe_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 190px;
+    height: 45px;
+}
+
+#menu_box_toppage .boxes_news_top
+{
+    background-image: url(../AoK/img/boxes/news_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 190px;
+    height: 45px;
+}
+
+#menu_box_toppage .boxes_gallery_top
+{
+    background-image: url(../AoK/img/boxes/gallery_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 190px;
+    height: 45px;
+}
+
+#menu_box_toppage .menu_top
+{
+    width: 190px;
+    height: 45px;
+    background-image: url(../AoK/img/boxes/menu_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
+
+#menu_box_toppage .menu_links
+{
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    width: 160px;
+    height: auto;
+    display: block;
+    background-color: transparent;
+    margin: 0 0 12px 8px;
+    padding: 3px;
+    border-color: #ded8cc;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#bottom_boxes .menu_box
+{
+    position: absolute;
+    top: 48px;
+    left: 207px;
+    font-weight: bold;
+    width: 166px;
+    height: auto;
+    display: block;
+    background-color: #FFFFFF;
+    max-height: 234px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#etc_box
+{
+    background-image: url(../AoK/img/boxes/etc_box.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    width: 190px;
+    height: 295px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#etc_box .box_etc
+{
+    position: absolute;
+    top: 47px;
+    left: 592px;
+    width: 166px;
+    height: auto;
+    display: block;
+    background-color: transparent;
+    max-height: 234px;
+    margin: 0;
+    padding: 0;
+}
+
+#etc_box ul
+{
+    padding: 0;
+    list-style-type: none;
+    list-style-position: default;
+    text-align: left;
+    margin: 5px 0 5px 4px;
+}
+
+#etc_box li
+{
+    color: #3F6080;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0;
+    margin: 4px 0 4px 0;
+}
+
+/*all other links*/
+a:link, a:visited
+{
+    color: #204563;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #7F7F7F;
+    text-decoration: underline;
+}
+
+/*Rollover Links menu and etc*/
+a.menu_ro:hover 
+{
+    background-color: #F8B847;
+    color: #7F7F7F;
+    text-decoration: underline;
+}
+
+.sublink
+{
+    font-size: 0.95em;;
+    font-weight: bold;
+}
+
+.featured
+{
+    font-size: 0.85em;
+    font-weight: bold;	
+}
+
+/*img*/
+img
+{
+    border-width: 0;
+    border-style: none;
+}
+
+.img_right
+{
+    float: right;
+    margin-right: 5px;
+}
+
+.img_left
+{
+    margin-left: 45px;
+}
+
+.img_left_padding
+{
+    margin-left: 45px;
+    margin-top: -2px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.img_left_bdr
+{
+    float: left;
+    margin-left: 5px;
+    border-color: #D4D2D2;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 8px;
+}
+
+.img_left_zoom_view
+{
+    float: left;
+    border-color: #D4D2D2;
+    border-width: 2px;
+    border-style: solid;
+    margin: 15px 8px 5px 0px;
+}
+
+.img_bdr
+{
+    border-color: #9A9A81;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.img_bdr_blk
+{
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*slideshow list*/
+#txt_box .slideshowUL
+{
+    list-style-type: none;
+    margin: 0 0 0 35px;
+
+}
+
+#txt_box .slideshowLI
+{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+.backGallery
+{
+    width: 25%;
+    height: auto;
+    display: block;
+    border-color: #9B9B9B;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    margin: 5px 0 15px 45px;
+    padding: 5px 0 5px 0;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+/*menu page, contact, services, kitchen */
+#text_area
+{
+    width: 95%;
+    height: auto;
+    background-color: #FFF;
+    position: relative;
+    top: 0px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.boxes_contact_top
+{
+    background-image: url(../AoK/img/boxes/boxes_contact_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 191px;
+    height: 41px;
+}
+
+.boxes_services_top
+{
+    background-image: url(../AoK/img/boxes/boxes_services_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 191px;
+    height: 41px;
+}
+
+.boxes_kitchen_top
+{
+    background-image: url(../AoK/img/boxes/boxes_recipes_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 191px;
+    height: 41px;
+}
+
+.boxes_news_top
+{
+    background-image: url(../AoK/img/boxes/boxes_news_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 191px;
+    height: 41px;
+}
+
+.boxes_menu_top
+{
+    background-image: url(../AoK/img/boxes/boxes_menus_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    width: 191px;
+    height: 41px;
+}
+
+
+/*Fonts*/
+.grn
+{
+    color: #247C35;
+    font-weight: bold;
+}
+
+.blue
+{
+    color: #4895C0;
+    font-weight: bold;
+}
+
+.deepblue
+{
+    color: #295872;
+    font-weight: bold;
+}
+
+.orgish
+{
+    color: #F55B28;
+    font-weight: bold;
+}
+
+.yellow
+{
+    color: #F5DA3F;
+    font-weight: bold;
+}
+
+.brown
+{
+    color: #633C28;
+    font-weight: bold;
+}
+
+.red
+{
+    color: #FF0518;
+    font-weight: bold;
+}
+
+.sm_red_txt
+{
+    color: #FF0906;
+    font-size: 0.65em;
+}
+
+.sm_blue_txt
+{
+    color: #4D6EA4;
+    font-size: 0.65em;
+}
+
+.sm_blk_txt
+{
+    color: #353535;
+    font-size: 0.80em;
+}
+
+.bld
+{
+    font-weight: bold;
+}
+
+.gray
+{
+    color: #4E4E4E;
+}
+
+
+
+
+/*Footer Styles*/
+#global_box .footer
+{
+    width: 775px;
+    height: auto;
+    background-color: #FFF;
+    margin: 3% auto;
+    text-align: right;
+    font-size: 0.75em;
+    clear: both;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+}
+
+#global_box .footer p
+{
+    font-size: 0.95em;
+    text-align: center;
+}
+
+.footer ul
+{
+    list-style-type: none;
+    list-style-position: default;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer ul li
+{
+    display: inline;
+    margin: 0;
+    padding: 0 2px 0 0;
+    border-right: 1px solid black;
+}
+
+.footer .last-menu-item
+{
+    border: none;
+}
+
+#slides {
+}
+
+.slide {
+    position: relative;
+}
+
+.slide .caption {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.slide .caption p {
+    font-style: italic;
+    color: white;
+    font-size: 1em;
+}
+
+.caption h2 {
+    color: white;
+    padding: 5px;
+}
+
+.attachment-home-page-small {
+	float: left;
+	padding: 0 15px 15px 0;
+	}
+	
+
+.front_page_news {
+	border-bottom: 1px solid #9A9A81;
+	margin-bottom: 10px;
+}
+
+.append-bottom {
+	margin-bottom: 35px;
+}
+
+.page-title {
+	margin-top: 10px;
+}
+
+.xoxo h3 {
+	background: #431207;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	color: #fff !important;
+	line-height: 35px;
+	padding-left: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    }
+    
+.location-title {
+	border-bottom: 1px solid #9A9A81;
+	margin-bottom: 10px;
+}
+
+.location-left {
+	float: left;
+	width: 350px;
+	}
+
+.location-right {
+	float: left;
+	}
+	
+.location ul li {
+	margin-bottom: 5px;
+}
+
+#menus {
+	background: #B3B3B3;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 670px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#menus .menu h5 {
+	font-size: .8em;
+	
+}
+
+#menus .menu h6, #menus p {
+	font-size: .7em;
+}
+
+#menus .menu {
+	background: #fff;
+	padding: 10px;
+}
+
+#menus .menu a {
+	font-size: .8em;
+}
+
+li.Social_Widget {
+    margin-bottom: 5px;
+}
+	
+#testimonials {
+    background: #EEE;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#testimonials blockquote {
+	padding-left: 25px;
+        padding-top: 5px;
+	background: transparent url(../AoK/img/quote.gif) no-repeat;
+}
+
+#testimonials p {
+    font-style: italic;
+    font-size: .9em;
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
