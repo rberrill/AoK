@@ -63,6 +63,9 @@ echo "<div class='location'>";
 			<li>
 				<?php the_field("location_email"); ?>
 			</li>
+                        <li style="margin-top:40px; font-size: 14px;">
+                            <?php the_field("location_description"); ?>
+                        </li>
 		</ul>
 	</div>
 	<div class="location-right">
